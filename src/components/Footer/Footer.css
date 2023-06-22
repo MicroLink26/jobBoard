@@ -1,0 +1,17 @@
+footer {
+  height: 63px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #dddddd;
+}
+
+footer > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #000000;
+}
