@@ -1,9 +1,10 @@
+import Title from "./Title";
 import "./Header.css";
 
 const Header = (props) => {
   return (
-    <header>
-      <h1>The Job Board</h1>
+    <header className="site-header">
+      <Title text={props.text} />
     </header>
   );
 };

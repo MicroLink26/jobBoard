@@ -1,18 +1,12 @@
+import Job from "./Job";
+import("./Jobs.css");
+
 const Jobs = (props) => {
   return (
     <div className="container">
-      <div className="item">
-        <p>Full Time Sales Associate - Sydney Boutique</p>
-        <div>CDI - Australie - Sydney</div>
-      </div>
-      <div className="item"></div>
-      <div className="item"></div>
-      <div className="item"></div>
-      <div className="item"></div>
-      <div className="item"></div>
-      <div className="item"></div>
-      <div className="item"></div>
-      <div className="item"></div>
+      {props.jobs.map((job, index) => (
+        <Job value={job} key={index} />
+      ))}
     </div>
   );
 };

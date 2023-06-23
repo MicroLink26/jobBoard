@@ -1,4 +1,4 @@
-footer {
+footer.site-footer {
   height: 63px;
   display: flex;
   justify-content: center;
@@ -6,7 +6,7 @@ footer {
   background: #dddddd;
 }
 
-footer > p {
+footer.site-footer > p {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
